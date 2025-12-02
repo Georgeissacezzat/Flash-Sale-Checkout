@@ -39,7 +39,7 @@ The system uses a pessimistic locking approach combined with high-speed caching 
 | **1. Clone** | `git clone [repository_url]` | Get the source code. |
 | **2. Install** | `composer install` | Install PHP dependencies. |
 | **3. Environment** | `cp .env.example .env` | Configure your database connection in the `.env` file. |
-| **4. Database** | `php artisan migrate --seed` | Run migrations and seed the database. The seeder creates **Product ID 1 with 10 units of stock** for testing. |
+| **4. Database** | `php artisan migrate --seed` | Run migrations and seed the database. The seeder creates **Product with 50 units of stock** for testing. |
 | **5. Scheduler** | `php artisan schedule:work` | Start the scheduler for background jobs (like hold cleanup). |
 
 ### 2.2. Start the Server
